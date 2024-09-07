@@ -1,0 +1,154 @@
+/* Image related styling */
+
+/* Theme 
+    background-color : rgb(59, 178, 59);
+ */
+.logo-text{
+    margin-top: -2rem;
+}
+
+.font-family-text{
+    font-family: sans-serif!important;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.bgimg-1 {
+    background-image: url(./icons/garbage.jpg);
+    height: 100%;
+}
+.bgimg-1, .bgimg-2, .bgimg-3{
+    position: relative;
+    /* opacity: 0.8; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* user agent stylesheet */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4  {
+    display: block;
+    unicode-bidi: isolate;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px / 1.8 "Lato", sans-serif;
+    color: #777;
+    color: black;
+}
+.pick-service{
+    background-color: #45c552;
+}
+
+.pick-service:hover{
+    background-color: rgb(255, 255, 255) !important;
+    background: rgba(34, 34, 35, 0.756) !important;
+    background-repeat: no-repeat !important;
+}
+
+.service-provided{
+    background-color:rgb(7, 148, 66);
+    
+}
+
+
+
+.image-container{
+    height: 30vh;
+    width: 30vw;
+}
+
+.subContainer{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.subContainertext{
+    /* background-color: bisque; */
+    padding: 1.5rem;
+}
+.service-row .col-lg-3{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.service-main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-container{
+    width: 800px;
+    height: 400pxx;
+}
+
+.btn{
+    background-color: rgb(79, 181, 87);
+    font-weight: bold;
+}
+
+.subContainer img{
+    height: 20vh;
+}
+
+.flex-container{
+    display: flex;
+    gap: 0.7rem;
+}
+
+.para-text{
+    color: white;
+    font-family: sans-serif;
+}
+
+.activities-container{
+    background-color:rgb(67 130 67);
+}
+
+.activities-container-items{
+    background-color: #06D001;
+    transition: all .2s;
+}
+.activities-container-items:hover{
+    background-color: #3ab2e6;
+    transform:scale(1.1);
+
+}
+.bgimg-4 {
+    background-image: url(./images/leaves2.jpg);
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stren-text{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.footer-container{
+    background-color: rgb(32, 72, 34);
+}
+.footer-container-item{
+    background-color: rgb(50, 119, 53);
+}
+
+.bgimg-5 {
+    background-image: url(./images/leaves2.jpg);
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-hover{
+    transition: all .2s;
+}
+.image-hover:hover{
+    transform:scale(1.1);
+
+}
