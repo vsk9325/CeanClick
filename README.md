@@ -1,1 +1,1 @@
-# CeanClick
+# CleanClick
